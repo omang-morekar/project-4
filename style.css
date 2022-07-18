@@ -75,7 +75,7 @@ img[alt="brand-logo"] {
 
 section[aria-label="banner"] {
   flex-basis: 80%;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .banner-container {
@@ -90,25 +90,44 @@ section[aria-label="banner"] {
   flex-basis: 40%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 6rem;
 }
 
 .heading-text {
-  font-size: 2rem;
+  font-size: 4rem;
+  line-height: 5rem;
+  color: #5a0084;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+
+.heading-text > span {
+  color: #5c3ced;
+}
+
+.description {
+  color: gray;
+  font-size: 1.125rem;
+  margin: 2rem 0;
+}
+
+.btn {
+  padding: 1rem 2rem;
 }
 
 /* ~ RIGHT */
 
 .banner-container > div:last-child {
-  /* flex-basis: 60%; */
+  flex-basis: 60%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
 img[alt="illustration"] {
-  width: 60vw;
-  height: 60vh;
+  width: 50vw;
+  height: 75vh;
   /* display: inline; */
 }
